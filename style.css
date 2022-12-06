@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(35, 35, 35);
+    font-family: monospace;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 8px rgb(205, 205, 205);
+    padding: 50px 20px;
+    border-radius: 30px;
+}
+
+.display-frame {
+    background-color: rgb(140, 138, 138);
+    height: 100px;
+    border-radius: 5px;
+    border: solid 3px rgb(92, 92, 92);
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(184, 193, 172);
+    margin: 15px 30px;
+    height: 60px;
+    border-radius: 15px;
+    border: solid 2px rgb(35, 35, 35);
+    padding: 5px;
+    font-size: 67px;
+    color: rgb(47, 47, 46);
+}
+
+.pad {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.key {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px rgb(35, 35, 35);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: rgb(238, 238, 238);
+}
+
+#equal {
+    background-color: rgb(216, 173, 0);
+    font-size: 40px;
+}
+
+.op {
+    color: rgb(86, 61, 11);
+    font-size: 40px;
+}
+
+.key:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(8, 59, 8);
+}
+
+#equal:hover {
+    background-color: rgb(187, 150, 1);
+    color: rgb(8, 59, 8);
+}
