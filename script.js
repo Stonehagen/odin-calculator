@@ -1,5 +1,5 @@
-function operate(op, a, b) {
-    switch (op) {
+function operate(operator, a, b) {
+    switch (operator) {
         case '+':
             return add(a, b);
         case '-':
