@@ -37,7 +37,7 @@ body {
     border-radius: 15px;
     border: solid 2px rgb(35, 35, 35);
     padding: 5px;
-    font-size: 67px;
+    font-size: 60px;
     color: rgb(47, 47, 46);
     border-top: solid 4px rgb(21, 21, 21);
     border-left: solid 4px rgb(21, 21, 21);
@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 30px;
 }
 
@@ -71,6 +71,7 @@ body {
     background-color: rgb(238, 238, 238);
     border-bottom: solid 5px rgb(48, 48, 48);
     border-right: solid 5px  rgb(48, 48, 48);
+    cursor: pointer;
 }
 
 #equal {
@@ -91,4 +92,16 @@ body {
 #equal:hover {
     background-color: rgb(187, 150, 1);
     color: rgb(8, 59, 8);
+}
+
+.extra {
+    height: 30px;
+    font-size: 30px;
+    background-color: rgb(140, 138, 138);
+}
+
+.space {
+    display: flex;
+    flex-grow: 1;
+    width: 80px;
 }
